@@ -1,21 +1,85 @@
+
 <ion-view title="" hide-nav-bar="true" id="page9" style="background-color:#E56EE1;">
   <ion-content padding="false" class="manual-ios-statusbar-padding">
     <div class="spacer" style="width: 320px; height: 31px;"></div>
     <div class="list card" id="page9-card22">
       <ion-item class="item-icon-left positive" id="page9-list-item12">
-        <i class="icon ion-image"></i>Item</ion-item>
+        <i class="icon ion-image"></i>Gif Display</ion-item>
       <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
-        <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
-      </div>
+        <img id = "what" class="icon ion-image" onclick = "this.src='https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif'"src='https://zippy.gfycat.com/DeterminedFondBadger.gif' style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></img></i>
+<!--         <img id = "myImg"src='https://zippy.gfycat.com/DeterminedFondBadger.gif'></img></i>
+ -->      </div>
       <ion-item class="item-icon-left positive" id="page9-list-item13">
         <i class="icon ion-ios-people"></i>Translation here</ion-item>
     </div>
-    <form id="page9-form11" class="list">
+    <form  method = 'post' id="sForm" class="list">
       <div class="spacer" style="width: 320px; height: 52px;"></div>
       <label class="item item-input" id="page9-input15">
-        <input type="text" placeholder="Kent's Messages">
+        <input type="search" name="textinput"placeholder="Kent's Messages"id="search"></input>
+        <button onclick= "doneit()">Try it</button>
+
       </label>
       <a ui-sref="page8" id="page9-button9" class="button button-positive  button-block">End Conversation</a>
     </form>
   </ion-content>
 </ion-view>
+
+
+<!-- 
+  // $(document).ready(function(e){
+  //   $('#sForm').on('submit', function()
+  //       {   
+  //         $(".https://zippy.gfycat.com/DeterminedFondBadger").attr("src","https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif");
+  //         // var image = document.getElementById("shit")
+  //         // image.src = "https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif"
+  //           // var inputs = document.myform;
+  //           // for(var i = 0; i < inputs.length; i++) {
+  //           //     inputs[i].disabled = false;
+  //           // }
+
+  //           // var edit_save = document.getElementById("shit");
+
+  //           //    edit_save.src = "https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif";                              
+  //       }
+  //     // document.getElementById("https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif").src = "https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif";
+  //       //put shit here
+  //   });
+
+  // });
+
+  // var input;
+  // var gif;
+  // input = document.getElementById('input').value;
+  // // gif = parse('https://api.gyfcat.com/v1test/gyfcat/search?search_text=%s',input);
+  // document.getElementById('input').src = 'https://zippy.gfycat.com/AbsoluteCaringLabradorretriever.gif'; -->
+
+
+<!-- // Using jQuery.
+
+    // $(function() {
+    //     $('form').each(function() {
+    //         $(this).find('input').keypress(function(e) {
+    //             // Enter pressed?
+    //             if(e.which == 10 || e.which == 13) {
+    //                 this.form.submit();
+    //                 input = document.getElementById('input').value;
+    //                 gif = parse('https://api.gyfcat.com/v1test/gyfcat/search?search_text=%s',input)
+    //             input.src = gif
+    //             }
+    //         });
+
+    //         $(this).find('input[type=submit]').hide();
+
+    //     });
+    // });
+    // var input;
+    // var gif;
+
+    // }
+    // } -->
+
+<!-- 
+<body>
+    <input type="text" name="enter" class="enter" value="" id="lolz"/>
+    <input type="button" value="click" OnClick="kk()"/>
+</body> -->
